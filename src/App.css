@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+/* Custom styles for ALMAS & DIMAS */
+.elegant-gradient {
+  background: linear-gradient(135deg, #F5F1EB 0%, #F0EBE3 50%, #E5DDD5 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #B8860B 0%, #DAA520 50%, #CD853F 100%);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #B8860B 0%, #DAA520 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(184, 134, 11, 0.15);
+}
+
+.elegant-shadow {
+  box-shadow: 0 10px 30px rgba(184, 134, 11, 0.1);
+}
+
+/* Typography */
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+}
+
